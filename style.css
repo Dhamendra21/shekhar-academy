@@ -21,6 +21,7 @@
     color: rgb(53, 211, 211);
     font-weight: bold;
     border-bottom: 5px solid rgb(255, 95, 47);
+    /* color: greenyellow; */
 }
 .question{
     background: #000;
@@ -60,6 +61,10 @@
     .playlist-box{
         margin-top: 100px;
         margin-bottom: 200px;
+    }
+    .content{
+        /* from free cources page line 57 */
+    width: fit-content;
     }
 }
 .content-container h1{
