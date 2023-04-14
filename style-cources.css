@@ -14,6 +14,24 @@
     display: inline-block;
     
 }
+.footer img{
+    cursor: pointer;
+}
+@media (min-width:786px) {
+    .footer{
+        width: 1200px;
+    }
+}
+@media (max-width:786px) {
+    .footer{
+        display:inline;
+        margin-left: 0px;
+        /* width: 300px; */
+        display: flex;
+        flex-wrap: wrap;
+        text-align: left;
+    }
+}
 .card:hover{
     transform: rotate(-3deg);
 }

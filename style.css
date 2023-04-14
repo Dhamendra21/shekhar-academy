@@ -140,6 +140,37 @@ svg{
     border-radius: 50%;
     
 }
+/* media for footer */
+@media (min-width:786px) {
+    .footer{
+        width: 1000px;;
+        display: flex;
+        justify-content: space-between;
 
-
+    }
+}
+@media (max-width:786px) {
+    .footer{
+        display:inline;
+        margin-left: 0px;
+        /* width: 300px; */
+        display: flex;
+        flex-wrap: wrap;
+        text-align: left;
+    }
+}
 /* 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 */
+.gradient{
+    background: #121FCF;
+    background: linear-gradient(to right, #cf12b6 12%,  #4412cf 72%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold; 
+}
+.countdown{
+    background: #0011ff;
+    background: linear-gradient(to right, #2f00ff 20%,  #ff0202 72%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold; 
+}
