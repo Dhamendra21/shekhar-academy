@@ -1,0 +1,62 @@
+.body{
+background-color: rgb(227, 242, 255);
+}
+.container{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.output-container{
+    font-size: 22px;
+    width: 600px;
+    text-align: center;
+    margin: auto;
+    display: block;
+    font-weight:450;
+}
+
+.heading h1{
+    background: #dd52cf;
+    background: linear-gradient(to right, #d83bc8 0%, #494cdd 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.heading p{
+    font-weight: 500;
+    font-size: 22px;
+    color: rgb(88, 88, 88);
+}
+.defination{
+    font-weight: 500;
+    font-size: 20px;
+}
+.author{
+    font-size: 27px;
+    color: #000;
+    font-weight: bold;
+}
+
+@media (min-width:786px) {
+    .heading{
+        padding-top:20px;
+        width: 600px;
+        margin: auto;
+        text-align: center;
+        display: block;
+    }
+    .search{
+        margin-top: 100px;
+    }
+}
+@media (max-width:786px) {
+    .heading{
+        padding-top:20px;
+        width: 380px;
+        margin: auto;
+        text-align: center;
+        display: block;
+    }
+    .search{
+        margin-top: 120px;
+    }
+}

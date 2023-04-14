@@ -1,0 +1,32 @@
+
+
+
+/* position relative for card in courses page  */
+.tag-container{ 
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px px;
+    width: 150px;
+    margin: 10px;
+    font-size: 19px;
+    font-weight: bold;
+    background: #dbdbdb;
+    display: inline-block;
+    
+}
+.card:hover{
+    transform: rotate(-3deg);
+}
+.tag-container:hover{
+    transform: rotate(3deg);
+    
+}
+
+.btn-container div{
+    width: 100px;
+    color: rgb(88, 88, 88);
+    width: fit-content;
+}
+.btn{
+    width: 200px;
+}

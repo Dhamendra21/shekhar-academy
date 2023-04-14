@@ -1,0 +1,140 @@
+
+
+
+/* navbar csss */
+ 
+
+.logo{
+    width: 80px;
+    border-radius: 50%;
+    margin-right: 30px;
+    display: inline-block;
+}
+
+
+
+
+.nav-item a{
+    margin: 0 10px 0 10px;
+}
+.nav-item a:hover{
+    color: rgb(53, 211, 211);
+    font-weight: bold;
+    border-bottom: 5px solid rgb(255, 95, 47);
+}
+.question{
+    background: #000;
+    width: 50px;
+    border-radius: 50%;
+}
+
+/* css for content  */
+.baground-img-1{
+    margin: auto;
+    width: 600px;
+    display: block;
+}
+@media (min-width:786px) {
+    .content-container{
+        width: 715px;
+    }
+    .nav-container{
+        text-align: center;
+    }
+    .playlist-box{
+        margin-top: 100px;
+    }
+}
+@media (max-width:786px) {
+    .body{
+        width: 600px;
+    }
+    .card{
+        width: 400px;
+        margin: auto;
+        display: block;
+    }
+    .nav-container{
+        text-align: left;
+    }
+    .playlist-box{
+        margin-top: 100px;
+        margin-bottom: 200px;
+    }
+}
+.content-container h1{
+    background: #121FCF;
+background: linear-gradient(to right, #122ecf 9%,  #CF1512 76%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-weight: bold;
+
+}
+.content-container h2{
+    background: #121FCF;
+background: linear-gradient(to right, #cf12b6 9%,  #4412cf 76%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-weight: bold;
+}
+
+/* teacher img */
+.teacher-img{
+   border-radius: 14px 14px 0 0;
+   
+}
+.card-img-top{
+    position: relative;
+}
+.img-content{
+    width: 200px;
+    padding: 3px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    
+    /* background: #ffffff41; */
+}
+.teacher-card:hover{
+    transform: rotate(-2deg);
+}
+.book-mastercalsses{
+    background: #121FCF;
+background: linear-gradient(to right, #cf12b6 12%,  #4412cf 72%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-weight: bold;
+}
+
+/* footer */
+.link a{
+font-size: 20px;
+text-decoration: none;
+padding: 10px;
+color: gray;
+
+}
+.link a:hover{
+    color: #000;
+    font-weight: bold;
+}
+svg{
+    margin: 20px;
+}
+.commet-row{
+    margin: auto;
+}
+.comment-img{
+    width: 400px;
+}
+
+.user-img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    
+}
+
+
+/* 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 */
